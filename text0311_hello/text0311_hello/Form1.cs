@@ -21,5 +21,10 @@ namespace text0311_hello
         {
             button1.Text = "Hello!";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Text = DateTime.Now.ToString();
+        }
     }
 }
